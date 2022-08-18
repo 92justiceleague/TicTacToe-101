@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Tic Tac Toes</title>
+    <title>Tic Tac Toe</title>
     <!-- link to CSS code -->
     <link rel="stylesheet" href="tictactoe.css">
     <!-- link to JavaScript code -->
@@ -17,6 +17,18 @@
         <button onclick="resetBoard()" type="button" class="btn btn-primary btn-lg" name="button">Restart</button>
       </div>
       <table>
+        <tr>
+          <!-- the onclick calls a function called "handleClick" and passes itself to it -->
+          <td id='top-left' onclick="handleClick(this)" ></td>
+          <td id='top-middle'></td>
+          <td></td>
+        </tr>
+        <tr>
+          <!-- the onclick calls a function called "handleClick" and passes itself to it -->
+          <td id='top-left' onclick="handleClick(this)" ></td>
+          <td id='top-middle'></td>
+          <td></td>
+        </tr>
         <tr>
           <!-- the onclick calls a function called "handleClick" and passes itself to it -->
           <td id='top-left' onclick="handleClick(this)" ></td>
